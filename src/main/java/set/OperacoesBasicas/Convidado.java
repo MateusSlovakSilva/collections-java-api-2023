@@ -1,4 +1,4 @@
-package main.java.list.OperacoesBasicas;
+package main.java.set.OperacoesBasicas;
 
 public class Convidado {
     //atributos
