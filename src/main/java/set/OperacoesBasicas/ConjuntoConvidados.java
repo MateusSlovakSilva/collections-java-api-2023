@@ -43,6 +43,14 @@ public class ConjuntoConvidados {
         conjuntoConvidados.adicionarConvidados("Convidado 3" , 1235);
         conjuntoConvidados.adicionarConvidados("Convidado 4" , 1236);
 
+        conjuntoConvidados.exibirConvidados();
+
         System.out.println("Existem " + conjuntoConvidados.contarConvidados() + " Convidado(s) dentro do Set de Convidados");
+
+        conjuntoConvidados.removerConvidadoPorCodigoConvite(1236);
+
+        System.out.println("Existem " + conjuntoConvidados.contarConvidados() + " Convidado(s) dentro do Set de Convidados");
+
+        conjuntoConvidados.exibirConvidados();
     }
 }
